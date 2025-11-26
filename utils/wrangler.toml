@@ -1,0 +1,4 @@
+name = "flare-drive-r2"
+type = "javascript"
+main = "functions/worker.js"
+compatibility_date = "2025-11-26"
