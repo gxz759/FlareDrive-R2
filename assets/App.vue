@@ -596,8 +596,8 @@ export default {
           window.history.pushState(null, "", url.toString());
         }
         document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/" 
-            ? "追片喵云盘-R2 - 追片喵云盘"
-            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 追片喵云盘`;
+            ? "追片喵云盘 - 追片喵云盘"
+            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "" }  追片喵云盘`;
       },
       immediate: true,
     },
